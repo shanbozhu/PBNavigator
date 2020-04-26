@@ -8,10 +8,10 @@ source 'https://github.com/shanbozhu/PBASpec.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
-target 'PBMine' do
+target 'PBNavigator' do
 
     #项目内部库
-    pod 'PBHome', '1.0.2-SNAPSHOT'
+    #pod 'PBHome', '1.0.2-SNAPSHOT'
     
     #集团二方库
     
