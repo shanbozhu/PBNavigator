@@ -10,7 +10,7 @@
 
 @implementation UIViewController (PBRouter)
 
--(void)routerWithParas:(NSDictionary *)paras {
+- (void)routerWithParas:(NSDictionary *)paras {
     NSLog(@"我是与父类平级的分类中的实现方法");
 }
 
