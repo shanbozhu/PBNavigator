@@ -63,9 +63,9 @@
 		B06D54411F6D2ED10092623E = {
 			isa = PBXGroup;
 			children = (
-				B0DFE28E1FC562D3008D7DB2 /* Src */,
+				B0DFE28E1FC562D3008D7DB2 /* Sources */,
 				B0D836631FC57F7E00BCFC13 /* Page */,
-				B0DFE28C1FC562D3008D7DB2 /* Res */,
+				B0DFE28C1FC562D3008D7DB2 /* Resources */,
 				B06D544C1F6D2ED10092623E /* Products */,
 				4CE53AA7381397D0EB2B035D /* Pods */,
 				E1E5F23DFB7FE3A0F72D745E /* Frameworks */,
@@ -87,14 +87,14 @@
 			path = Page;
 			sourceTree = "<group>";
 		};
-		B0DFE28C1FC562D3008D7DB2 /* Res */ = {
+		B0DFE28C1FC562D3008D7DB2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Res;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		B0DFE28E1FC562D3008D7DB2 /* Src */ = {
+		B0DFE28E1FC562D3008D7DB2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				B0DFE2951FC562D3008D7DB2 /* PBNavigator.h */,
@@ -102,7 +102,7 @@
 				B0DFE2961FC562D3008D7DB2 /* Info.plist */,
 				95EDB3982455B53F003A43D4 /* PBRouter */,
 			);
-			path = Src;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		E1E5F23DFB7FE3A0F72D745E /* Frameworks */ = {
@@ -359,8 +359,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = Src/PBNavigator.pch;
-				INFOPLIST_FILE = Src/Info.plist;
+				GCC_PREFIX_HEADER = Sources/PBNavigator.pch;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -380,8 +380,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = Src/PBNavigator.pch;
-				INFOPLIST_FILE = Src/Info.plist;
+				GCC_PREFIX_HEADER = Sources/PBNavigator.pch;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
