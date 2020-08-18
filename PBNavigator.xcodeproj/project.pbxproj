@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95EDB39D2455B53F003A43D4 /* UIViewController+PBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EDB3992455B53F003A43D4 /* UIViewController+PBRouter.m */; };
-		95EDB39E2455B53F003A43D4 /* PBRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EDB39A2455B53F003A43D4 /* PBRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95EDB39F2455B53F003A43D4 /* PBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EDB39B2455B53F003A43D4 /* PBRouter.m */; };
-		95EDB3A02455B53F003A43D4 /* UIViewController+PBRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EDB39C2455B53F003A43D4 /* UIViewController+PBRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A4F66C24EBF0B200A5A024 /* UIViewController+PBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A4F66824EBF0B200A5A024 /* UIViewController+PBRouter.m */; };
+		95A4F66D24EBF0B200A5A024 /* PBRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A4F66924EBF0B200A5A024 /* PBRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A4F66E24EBF0B200A5A024 /* PBRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A4F66A24EBF0B200A5A024 /* PBRouter.m */; };
+		95A4F66F24EBF0B200A5A024 /* UIViewController+PBRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A4F66B24EBF0B200A5A024 /* UIViewController+PBRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0DFE29B1FC562D3008D7DB2 /* PBNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DFE2951FC562D3008D7DB2 /* PBNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0DFE29D1FC562D3008D7DB2 /* PBNavigator.pch in Headers */ = {isa = PBXBuildFile; fileRef = B0DFE2971FC562D3008D7DB2 /* PBNavigator.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75463657C52049CA88D5A79D /* libPods-PBNavigator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PBNavigator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95EDB3992455B53F003A43D4 /* UIViewController+PBRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PBRouter.m"; sourceTree = "<group>"; };
-		95EDB39A2455B53F003A43D4 /* PBRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRouter.h; sourceTree = "<group>"; };
-		95EDB39B2455B53F003A43D4 /* PBRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRouter.m; sourceTree = "<group>"; };
-		95EDB39C2455B53F003A43D4 /* UIViewController+PBRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PBRouter.h"; sourceTree = "<group>"; };
+		95A4F66824EBF0B200A5A024 /* UIViewController+PBRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PBRouter.m"; sourceTree = "<group>"; };
+		95A4F66924EBF0B200A5A024 /* PBRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRouter.h; sourceTree = "<group>"; };
+		95A4F66A24EBF0B200A5A024 /* PBRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRouter.m; sourceTree = "<group>"; };
+		95A4F66B24EBF0B200A5A024 /* UIViewController+PBRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PBRouter.h"; sourceTree = "<group>"; };
 		B06D544B1F6D2ED10092623E /* PBNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PBNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DFE2951FC562D3008D7DB2 /* PBNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBNavigator.h; sourceTree = "<group>"; };
 		B0DFE2961FC562D3008D7DB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,13 +49,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		95EDB3982455B53F003A43D4 /* PBRouter */ = {
+		95A4F66524EBF07C00A5A024 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				95EDB39A2455B53F003A43D4 /* PBRouter.h */,
-				95EDB39B2455B53F003A43D4 /* PBRouter.m */,
-				95EDB39C2455B53F003A43D4 /* UIViewController+PBRouter.h */,
-				95EDB3992455B53F003A43D4 /* UIViewController+PBRouter.m */,
+				95A4F66724EBF0B200A5A024 /* PBRouter */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		95A4F66624EBF07C00A5A024 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		95A4F66724EBF0B200A5A024 /* PBRouter */ = {
+			isa = PBXGroup;
+			children = (
+				95A4F66824EBF0B200A5A024 /* UIViewController+PBRouter.m */,
+				95A4F66924EBF0B200A5A024 /* PBRouter.h */,
+				95A4F66A24EBF0B200A5A024 /* PBRouter.m */,
+				95A4F66B24EBF0B200A5A024 /* UIViewController+PBRouter.h */,
 			);
 			path = PBRouter;
 			sourceTree = "<group>";
@@ -97,10 +112,11 @@
 		B0DFE28E1FC562D3008D7DB2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				95A4F66624EBF07C00A5A024 /* API */,
+				95A4F66524EBF07C00A5A024 /* Business */,
 				B0DFE2951FC562D3008D7DB2 /* PBNavigator.h */,
 				B0DFE2971FC562D3008D7DB2 /* PBNavigator.pch */,
 				B0DFE2961FC562D3008D7DB2 /* Info.plist */,
-				95EDB3982455B53F003A43D4 /* PBRouter */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -120,8 +136,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EDB3A02455B53F003A43D4 /* UIViewController+PBRouter.h in Headers */,
-				95EDB39E2455B53F003A43D4 /* PBRouter.h in Headers */,
+				95A4F66D24EBF0B200A5A024 /* PBRouter.h in Headers */,
+				95A4F66F24EBF0B200A5A024 /* UIViewController+PBRouter.h in Headers */,
 				B0DFE29B1FC562D3008D7DB2 /* PBNavigator.h in Headers */,
 				B0DFE29D1FC562D3008D7DB2 /* PBNavigator.pch in Headers */,
 			);
@@ -234,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EDB39F2455B53F003A43D4 /* PBRouter.m in Sources */,
-				95EDB39D2455B53F003A43D4 /* UIViewController+PBRouter.m in Sources */,
+				95A4F66E24EBF0B200A5A024 /* PBRouter.m in Sources */,
+				95A4F66C24EBF0B200A5A024 /* UIViewController+PBRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
