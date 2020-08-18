@@ -67,10 +67,10 @@
 		95A4F66724EBF0B200A5A024 /* PBRouter */ = {
 			isa = PBXGroup;
 			children = (
-				95A4F66824EBF0B200A5A024 /* UIViewController+PBRouter.m */,
 				95A4F66924EBF0B200A5A024 /* PBRouter.h */,
 				95A4F66A24EBF0B200A5A024 /* PBRouter.m */,
 				95A4F66B24EBF0B200A5A024 /* UIViewController+PBRouter.h */,
+				95A4F66824EBF0B200A5A024 /* UIViewController+PBRouter.m */,
 			);
 			path = PBRouter;
 			sourceTree = "<group>";
